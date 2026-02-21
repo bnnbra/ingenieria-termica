@@ -1,5 +1,5 @@
 name: Inspector de Sintaxis
-on: [pull_request] # Se activa cada vez que alguien abre un PR
+on: [push, pull_request] # Se activa cada vez que alguien abre un PR
 
 jobs:
   build:
